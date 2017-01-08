@@ -1,0 +1,18 @@
+{
+  "name": "raspi-server",
+  "version": "0.0.1",
+  "description": "SERVER side for the communication server.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "url": "https://github.com/EchoFUN/raspi-server.git",
+    "type": "git"
+  },
+  "author": "xukai <xukai@meituan.com>",
+  "license": "MIT",
+  "dependencies": {
+    "socket.io": "^1.7.1"
+  }
+}
